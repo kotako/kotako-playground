@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`object assignment with jest snapshot 1`] = `
+Object {
+  "one": 1,
+  "two": 2,
+}
+`;
