@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportHeight="24"
+            android:viewportWidth="24">
+            <group
+                android:name="rotationGroup"
+                android:pivotX="12"
+                android:pivotY="12">
+                <path
+                    android:name="menu"
+                    android:fillColor="#FF000000"
+                    android:pathData="M 20 11 L 20 11 L 20 13 L 7.83 13 L 13.41 18.59 L 12 20 L 8 16 L 4 12 L 12 4 L 13.42 5.41 L 7.83 11 L 20 11 M 12 12 L 12 12 L 12 12 L 12 12 L 12 12 L 12 12 M 12 7 L 12 7 L 12 7 L 12 7 L 12 7 L 12 7" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="menu">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="pathData"
+                android:valueTo="M 21 16 L 21 17 L 21 18 L 3 18 L 3 18 L 3 16 L 3.233 16 L 6.192 16 L 9.479 16 L 13.534 16 L 15.945 16 L 21 16 M 3 13 L 21 13 L 21 11 L 3 11 L 3 13 L 3 13 M 3 6 L 3 8 L 21 8 L 21 6 L 3 6 L 3 6"
+                android:valueFrom="M 20 11 L 20 11 L 20 13 L 7.83 13 L 13.41 18.59 L 12 20 L 8 16 L 4 12 L 12 4 L 13.42 5.41 L 7.83 11 L 20 11 M 12 12 L 12 12 L 12 12 L 12 12 L 12 12 L 12 12 M 12 7 L 12 7 L 12 7 L 12 7 L 12 7 L 12 7"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+    <target android:name="rotationGroup">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="rotation"
+                android:valueFrom="0"
+                android:valueTo="180" />
+        </aapt:attr>
+    </target>
+</animated-vector>

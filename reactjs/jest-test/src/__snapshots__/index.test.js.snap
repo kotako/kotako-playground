@@ -6,3 +6,15 @@ Object {
   "two": 2,
 }
 `;
+
+exports[`object assignment with jest snapshot-diff 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"one\\": 1,
++   \\"one\\": 2,
+    \\"two\\": 2,
+  }"
+`;
