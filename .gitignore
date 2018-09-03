@@ -4,3 +4,8 @@ node_modules/
 build/
 *.iml
 
+# Flutter
+.flutter-plugins
+.pub/
+.packages
+.dart_tool/
