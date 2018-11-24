@@ -1,0 +1,13 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ble": "node ./main.js"
+  },
+  "dependencies": {
+    "bleno": "^0.5.0",
+    "node": "^11.1.0"
+  }
+}
